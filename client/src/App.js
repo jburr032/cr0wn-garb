@@ -16,15 +16,9 @@ import "./pages/homepage.styles.scss";
 import "./App.css";
 
 const App = ({ checkUserSession, currentUser }) => {
-  // unsubcribeFromAuth = null;
-
   useEffect(() => {
     checkUserSession();
   }, [checkUserSession]);
-
-  // componentWillUnmount() {
-  //   unsubcribeFromAuth();
-  // }
 
   return (
     <div className='App'>
