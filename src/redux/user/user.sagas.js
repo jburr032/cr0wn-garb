@@ -16,7 +16,6 @@ import {
   getCurrentUser,
 } from "../../firebase/firebase.utils";
 import UserActionTypes from "./user.types";
-import { SignIn } from "../../components/sign-in/sign-in.component";
 
 export function* getSnapshotFromUserAuth(userAuth) {
   try {
