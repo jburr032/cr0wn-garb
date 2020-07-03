@@ -14,7 +14,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   const [userState, setUser] = useState({ email: "", password: "" });
   const { email, password } = userState;
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailSignInStart(email, password);
