@@ -13,6 +13,10 @@
     justify-content: space-between;
     border-bottom: 1px solid darkgrey;
 
+    @media screen and (max-width: 800px) {
+      display: None;
+    }
+
     .header-block {
       text-transform: capitalize;
       width: 23%;
@@ -39,5 +43,9 @@
     margin-top: 40px;
     font-size: 24px;
     color: red;
+
+    @media screen and (max-width: 800px) {
+      width: 260%;
+    }
   }
 }

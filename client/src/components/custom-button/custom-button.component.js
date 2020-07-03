@@ -10,6 +10,7 @@ const CustomButton = ({
 }) => (
   <button
     className={`${inverted ? "inverted" : ""} custom-button`}
+    style={{ backgroundColor: isGoogleSignIn ? "#4285f4" : "" }}
     {...otherProps}>
     {children}
   </button>

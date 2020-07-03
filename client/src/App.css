@@ -1,6 +1,13 @@
+@media screen and (max-width: 800px) {
+  body {
+    font-family: "Open Sans Condensed";
+    padding: 10px;
+  }
+}
+
 body {
   font-family: "Open Sans Condensed";
-  padding: 20px 80px;
+  padding: 20px 40px;
 }
 
 a {
